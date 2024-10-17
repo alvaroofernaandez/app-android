@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#222A37"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:text="Función Incrementar 🇪🇸"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvContador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Actual: 0"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvSeparador1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#E4E4E4" />
+
+    <Button
+        android:id="@+id/btnIncrementar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="funcionIncrementar"
+        android:backgroundTint="#161A2C"
+        android:text="Incrementar" />
+
+    <Button
+        android:id="@+id/btnDecrementar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#161A2C"
+        android:onClick="funcionDecrementar"
+        android:text="Decrementar" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#161A2C"
+        android:onClick="funcionReset"
+        android:text="Reset" />
+
+    <Button
+        android:id="@+id/btnEsp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#161A2C"
+        android:onClick="funcionCambiarIdiomaESP"
+        android:text="Español" />
+
+    <Button
+        android:id="@+id/btnEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#161A2C"
+        android:onClick="funcionCambiarIdiomaENG"
+        android:text="English" />
+
+    <TextView
+        android:id="@+id/tvSeparador2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#E4E4E4" />
+
+    <TextView
+        android:id="@+id/tvDivisor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:gravity="center"
+        android:text="Es divisor de 1: 0"
+        android:textColor="#989191" />
+
+    <TextView
+        android:id="@+id/tvDivisor2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:gravity="center"
+        android:text="Es divisor de 2: 0"
+        android:textColor="#989191" />
+
+    <TextView
+        android:id="@+id/tvDivisor3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:gravity="center"
+        android:text="Es divisor de 3: 0"
+        android:textColor="#989191" />
+
+    <TextView
+        android:id="@+id/tvDivisor4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:gravity="center"
+        android:text="Es divisor de 4: 0"
+        android:textColor="#989191" />
+
+    <TextView
+        android:id="@+id/tvDivisor5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:gravity="center"
+        android:text="Es divisor de 5: 0"
+        android:textColor="#989191" />
+
+    <TextView
+        android:id="@+id/tvFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.5"
+        android:gravity="center"
+        android:text="Footer - by Álvaro Fernández Amaro"
+        android:textColor="#E4E4E4" />
+
+</LinearLayout>
